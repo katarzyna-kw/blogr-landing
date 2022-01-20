@@ -1,0 +1,80 @@
+.header__container {
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: top 37% left 36%;
+    overflow: hidden;
+    padding-bottom: 5rem;
+    border-bottom-left-radius: var(--border-radius-lg);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 500px;
+    margin-bottom: 100px;
+}
+
+.header__head {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 40px 0 30px 0;
+}
+
+.header__h1, 
+.header__h2 {
+    color: var(--white);
+    text-align: center;
+    padding: .5rem 2.5rem;
+    margin: 0;
+}
+
+.header__h1 {
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.header__h2 {
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+
+.btn__container {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    border: 0;
+    border-radius: var(--border-radius-lg);
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+    padding: .7rem 1.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    min-width: 3rem;
+}
+
+.btn--filled {
+    color: var(--red);
+}
+
+.btn--filled:hover {
+    background-color: var(--light-red);
+    color: var(--white);
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+.btn--outline:hover {
+    background-color: var(--white);
+    color: var(--red);
+}

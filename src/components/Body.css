@@ -1,0 +1,54 @@
+h3, h4 {
+    color: var(--headings)
+}
+
+.body__container {
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.body__h3 {
+    font-size: 1.7rem;
+    padding: .5rem 2rem;
+}
+
+.body__copy {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    padding: 0 1.7rem;
+}
+
+.body__img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.body__article {
+    background-image: url('../images/bg-pattern-circles.svg'), var(--gradient-body);
+    /* object-position:  -200px -250px; */
+    background-size: 590px auto, auto;
+    /* background-position: -200px -200px, 0px 0px; */
+    background-position: -107px -230px, 0px 0px;
+    background-repeat: no-repeat, repeat;
+    border-top-right-radius: var(--border-radius-lg);
+    border-bottom-left-radius: var(--border-radius-lg);
+    margin: 250px 0 70px 0;
+    padding-bottom: 90px;
+
+}
+
+.body__h3--article {
+    color: var(--white);
+    font-size: 2.3rem;
+    /* background-color: tomato; */
+    margin: -5px 0 0 0;
+}
+
+.body__copy--article {
+    color: var(--white);
+    /* background-color: turquoise; */
+}
+
+.body__img--article {
+    margin-top: -180px;
+}

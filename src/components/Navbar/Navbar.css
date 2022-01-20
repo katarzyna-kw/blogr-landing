@@ -1,0 +1,100 @@
+.navbar {
+    position: absolute;
+    margin-top: 120px;
+    background-color: var(--white);
+    width: 85%;
+    border-radius: var(--border-radius-sm);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.navbar__nav {
+    width: 85%;
+    padding-top: 30px;
+}
+
+.navbar__section {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar__btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--headings);
+    font-family: "Overpass", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.navbar__btn--active {
+    color: var(--body-copy);
+}
+
+.navbar__arrow {
+    padding: 2px 0 2px 10px;
+}
+
+.navbar__arrow--reverse {
+    padding: 2px 10px 2px 2px;
+    transform: rotate(180deg);
+}
+
+.navbar__link {
+    background-color: var(--gray);
+    color: var(--body-copy);
+    font-weight: 300;
+    font-size: 1.4rem;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.navbar__link:hover {
+    text-decoration: underline;
+}
+
+.navbar__link:nth-of-type(1) {
+    border-top-left-radius: var(--border-radius-sm);
+    border-top-right-radius: var(--border-radius-sm);
+    margin-top: 20px;
+    padding: 25px 0 10px 0;
+}
+
+.navbar__divider {
+    background-color: var(--gray);
+    width: 90%;
+    height: 1px;
+    margin-top: 20px;
+}
+
+.navbar__btn-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: space-around;
+    min-height: 120px;
+    margin-top: 10px;
+}
+
+.btn--borderless {
+    background-color: transparent;
+    color: var(--headings);
+}
+
+.btn--borderless:hover {
+    background-color: var(--gray);
+}
+
+.btn--gradient {
+    background: var(--gradient-header);
+    color: var(--white);
+}
+
+.btn--gradient:hover {
+    background: linear-gradient(120deg, var(--light-red), var(--red));
+}
