@@ -33,3 +33,34 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+@media (min-width: 768px) {
+    .footer__container {
+        flex-flow: row wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 10.3rem;
+        padding-bottom: 70px;
+        text-align: left;
+    }    
+
+    .footer__container > img, ul {
+        margin-top: 70px;
+    }
+
+    .footer__links {
+        display: flex;
+        width: 65%;
+        justify-content: space-around;
+        padding-left: 5.5rem;
+    }
+
+    .footer__list {
+        color: var(--white);
+        font-weight: 400;
+    }
+
+    .footer__link {
+        color: var(--footer-text);
+    }
+}

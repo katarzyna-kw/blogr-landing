@@ -8,6 +8,7 @@ function Footer() {
   return ( 
     <footer className="footer__container">
       <img className="footer__logo" src={logo} alt="Blogr logo" />
+      <div className="footer__links">
       {navbarLinks.map((item) => (
         <ul className="footer__list">{item.category}
           {item.links.map((link) => (
@@ -15,6 +16,7 @@ function Footer() {
           ))}
           </ul>
       ))}
+      </div>
     </footer>
     )
 }
