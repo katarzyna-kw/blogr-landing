@@ -141,18 +141,19 @@ h3, h4 {
 
     .body__img--article {
         margin-top: -380px;
-        margin-left: -8.5rem;
+        margin-left: -13.5rem;
     }
 
     .body__text--article {
         width: 45%;
-        margin: 124px 0 510px -9.5rem;
+        margin: 124px 0 510px -.5rem;
         padding-bottom: 0;
         padding-right: 0;
     }
 
     .body__copy--article {
         padding-top: 25px;
+        margin-right: 1rem;
     }
 }
 
@@ -165,13 +166,25 @@ h3, h4 {
         margin-right: 0;
     }
 
-    .body__copy--article {
-        margin-right: 7rem;
-    }
-
     .body__text--first {
         width: 36.7%;
         padding-left: 7.9rem;
         padding-right: 0rem;
+    }
+
+    .body__img--article {
+        margin-left: -8.5rem;
+    }
+
+    .body__text--article {
+        width: 45%;
+        margin: 124px 0 510px -9.5rem;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+
+    .body__copy--article {
+        margin-right: 7rem;
+        padding-top: 25px;
     }
 }
