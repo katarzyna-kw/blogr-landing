@@ -1,12 +1,12 @@
 import Header from './components/Header'
-import Body from './components/Body.component'
+import Body from './components/Body'
 import Footer from './components/Footer'
 import Attribution from './components/Attribution' 
 import './App.css';
 
 function App() {
   return (
-    <main className="App">
+    <main className="App" data-testid="app">
       <Header />
       <Body />
       <Footer />
