@@ -1,8 +1,8 @@
-import Header from './components/Header'
-import Body from './components/Body'
-import Footer from './components/Footer'
-import Attribution from './components/Attribution' 
-import './App.css';
+import Header from "./components/Header";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
+import Attribution from "./components/Attribution";
+import "./App.css";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Body />
       <Footer />
       <Attribution />
-  </main>
+    </main>
   );
 }
 
