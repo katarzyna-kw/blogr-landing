@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+  .body__img--last {
+    margin-left: -17.813rem;
+    padding-top: 10px;
+  }
+
+  .body__text--last {
+    padding: 10.2rem 0rem 2rem 0rem;
+  }
+
+  .body__h4--last {
+    margin-top: 4.5rem;
+  }
+}
+
+@media (min-width: 1900px) {
+  .body__img--last {
+    margin-left: -19.813rem;
+    padding-top: 10px;
+  }
+
+  .body__text--last {
+    padding-top: 20.2rem;
+    margin-left: -20rem;
+  }
+}

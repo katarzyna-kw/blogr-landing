@@ -1,0 +1,42 @@
+@media (min-width: 768px) {
+  .body__content--first {
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+  }
+
+  .body__img--first {
+    margin-right: -21.813rem;
+    margin-top: -200px;
+  }
+
+  .body__text--first {
+    width: 50%;
+    margin-top: 1.4rem;
+    padding-left: 7rem;
+  }
+
+  .body__copy--first {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .body__copy--first {
+    margin-right: 0;
+  }
+
+  .body__text--first {
+    width: 36.7%;
+    padding-left: 7.9rem;
+    padding-right: 0rem;
+  }
+}
+
+@media (min-width: 1900px) {
+  .body__text--first {
+    width: 36.7%;
+    padding-top: 8rem;
+    padding-left: 15.9rem;
+    padding-right: 0rem;
+  }
+}
