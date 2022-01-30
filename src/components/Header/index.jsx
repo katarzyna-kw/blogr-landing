@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
+import HamburgerOpen from "../HamburgerOpen";
+import HamburgerClose from "../HamburgerClose";
 import Navbar from "../Navbar";
 import desktopBg from "../../images/bg-pattern-intro-desktop.svg";
 import mobileBg from "../../images/bg-pattern-intro-mobile.svg";
 import logo from "../../images/logo.svg";
-import hamburger from "../../images/icon-hamburger.svg";
-import close from "../../images/icon-close.svg";
 import "./Header.css";
 
 function Header() {
@@ -37,21 +37,9 @@ function Header() {
     >
       <div className="header__head">
         <img className="header__logo" src={logo} alt="Blogr logo" />
-        {!isOpen && !isDesktop && (
-          <button className="navbar__btn">
-            <img
-              src={hamburger}
-              alt="Click to open menu"
-              onClick={handleToggle}
-            />
-          </button>
-        )}
-        {isOpen && !isDesktop && (
-          <button className="navbar__btn">
-            <img src={close} alt="Click to close menu" onClick={handleToggle} />
-          </button>
-        )}
-        {isDesktop && <Navbar desktop={isDesktop}/> }
+        {!isOpen && !isDesktop && <HamburgerOpen toggle={handleToggle} />}
+        {isOpen && !isDesktop && <HamburgerClose toggle={handleToggle} />}
+        {isDesktop && <Navbar desktop={isDesktop} />}
       </div>
       {isOpen && !isDesktop && <Navbar />}
       <h1 className="header__h1">A modern publishing platform</h1>
