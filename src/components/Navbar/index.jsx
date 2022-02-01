@@ -32,7 +32,7 @@ function Navbar({ desktop }) {
     <div className="navbar">
       <div className="navbar__nav">
         {navbarProducts.map((item) => (
-          <nav className="navbar__item">
+          <nav key={item.category} className="navbar__item">
             <button
               className={
                 productIsOpen
@@ -60,7 +60,7 @@ function Navbar({ desktop }) {
           </nav>
         ))}
         {navbarContact.map((item) => (
-          <nav className="navbar__item">
+          <nav key={item.category} className="navbar__item">
             <button
               className={
                 companyIsOpen
@@ -89,7 +89,7 @@ function Navbar({ desktop }) {
         ))}
 
         {navbarConnect.map((item) => (
-          <nav className="navbar__item">
+          <nav key={item.category} className="navbar__item">
             <button
               className={
                 connectIsOpen
