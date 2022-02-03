@@ -81,7 +81,7 @@
 .navbar__link:nth-of-type(1) {
   border-top-left-radius: var(--border-radius-sm);
   border-top-right-radius: var(--border-radius-sm);
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 25px 0 10px 0;
 }
 
@@ -110,7 +110,7 @@
 .btn--borderless {
   background-color: transparent;
   color: var(--headings);
-  font-size: 1.05rem;
+  font-size: 1.3rem;
 }
 
 .btn--borderless:hover {
@@ -120,7 +120,7 @@
 .btn--gradient {
   background: var(--gradient-header);
   color: var(--white);
-  font-size: 1.05rem;
+  font-size: 1.3rem;
 }
 
 .btn--gradient:hover {
