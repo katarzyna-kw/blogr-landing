@@ -38,7 +38,8 @@ function Header() {
       <div className="header__head">
         <img className="header__logo" src={logo} alt="Blogr logo" />
         {!isOpen && !isDesktop && <HamburgerOpen toggle={handleToggle} />}
-        {isOpen && !isDesktop && <HamburgerClose toggle={handleToggle} />}
+        {isOpen && !isDesktop && 
+        <HamburgerClose toggle={handleToggle} />}
         {isDesktop && <Navbar desktop={isDesktop} />}
       </div>
       {isOpen && !isDesktop && <Navbar />}
