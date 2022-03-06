@@ -12,7 +12,8 @@
   padding-bottom: 30px;
 }
 
-.navbar__nav {
+.navbar__nav, 
+.navbar__item {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -21,12 +22,7 @@
 }
 
 .navbar__item {
-  width: 100%;
-  display: flex;
   padding-top: 30px;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
 }
 
 .navbar__section {
@@ -107,10 +103,14 @@
   margin-top: 10px;
 }
 
+.btn--borderless,
+.btn--borderless {
+  font-size: 1.4rem;
+}
+
 .btn--borderless {
   background-color: transparent;
   color: var(--headings);
-  font-size: 1.3rem;
 }
 
 .btn--borderless:hover {
@@ -120,7 +120,6 @@
 .btn--gradient {
   background: var(--gradient-header);
   color: var(--white);
-  font-size: 1.3rem;
 }
 
 .btn--gradient:hover {

@@ -53,7 +53,7 @@ function Navbar({ desktop }) {
             {productIsOpen && (
               <ul className="navbar__section">
                 {item.links.map((link) => (
-                  <li className="navbar__link">{link}</li>
+                  <li key={link} className="navbar__link">{link}</li>
                 ))}
               </ul>
             )}
@@ -81,7 +81,7 @@ function Navbar({ desktop }) {
             {companyIsOpen && (
               <ul className="navbar__section">
                 {item.links.map((link) => (
-                  <li className="navbar__link">{link}</li>
+                  <li key={link} className="navbar__link">{link}</li>
                 ))}
               </ul>
             )}
@@ -110,7 +110,7 @@ function Navbar({ desktop }) {
             {connectIsOpen && (
               <ul className="navbar__section">
                 {item.links.map((link) => (
-                  <li className="navbar__link">{link}</li>
+                  <li key={link} className="navbar__link">{link}</li>
                 ))}
               </ul>
             )}
