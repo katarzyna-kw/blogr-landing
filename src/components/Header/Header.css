@@ -102,7 +102,6 @@
     align-items: flex-start;
     justify-content: space-around;
     margin: 61px 0 0 0;
-    /* background-color: yellowgreen; */
   }
 
   .header__h1 {
@@ -118,13 +117,8 @@
   }
 
   .btn__container {
-    /* justify-content: center; */
     margin-top: -0.75rem;
   }
-
-  /* .btn__container>button:not(:last-child) {
-    margin-right: 1rem;
-  } */
 }
 
 @media (min-width: 1000px) {
@@ -135,15 +129,10 @@
   .header__head {
     width: 77%;
     justify-content: space-between;
-    /* background-color: tomato; */
   }
 
   .btn__container {
     justify-content: center;
     margin-top: -0.75rem;
   }
-
-  /* .header__head>* {
-    background-color: turquoise;
-  } */
 }
