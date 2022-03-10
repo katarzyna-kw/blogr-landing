@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/katarzyna-kw/blogr-landing)
-- Live Site URL: [Add live site URL here](katarzyna-kw.github.io/blogr-landing/)
+- Solution URL: [Github repo](https://github.com/katarzyna-kw/blogr-landing)
+- Live Site URL: [Hosted by gh-pages](katarzyna-kw.github.io/blogr-landing/)
 
 ### Built with
 
@@ -43,5 +43,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://github.com/katarzyna-kw/portfolio-website)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/katarzyna-kw)
+- Website - [Katarzyna Wegrzynowicz Portfolio](https://github.com/katarzyna-kw/portfolio-website)
+- Frontend Mentor - [@katarzyna-kw](https://www.frontendmentor.io/profile/katarzyna-kw)
