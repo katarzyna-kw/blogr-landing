@@ -1,6 +1,6 @@
 const navbarLinks = [
   {
-    category: "Product",
+    category: "Home",
     links: ["Overview", "Pricing", "Marketplace", "Features", "Integrations"],
   },
   {

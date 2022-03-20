@@ -28,7 +28,7 @@ function Header() {
   };
 
   return (
-    <section
+    <header
       className="header__container"
       style={{
         backgroundImage: `url(${bgUrl}), var(--gradient-header)`,
@@ -51,7 +51,7 @@ function Header() {
         <button className="header__btn btn btn--filled">Start for Free</button>
         <button className="header__btn btn btn--outline">Learn More</button>
       </div>
-    </section>
+    </header>
   );
 }
 
