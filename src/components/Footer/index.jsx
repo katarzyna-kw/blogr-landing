@@ -10,12 +10,14 @@ function Footer() {
       <img className="footer__logo" src={logo} alt="Blogr logo" />
       <div className="footer__links">
         {navbarLinks.map((item) => (
-          <ul key={item.category} className="footer__list">
-            <div>{item.category}</div>
+          <div class="list__wrapper" key={item.category}>
+            <div class="list__title">{item.category}</div>
+            <ul key={item.category} className="footer__list">
             {item.links.map((link) => (
               <li key={link} className='footer__link'>{link}</li>
             ))}
             </ul>
+          </div>
         ))}
       </div>
     </footer>
