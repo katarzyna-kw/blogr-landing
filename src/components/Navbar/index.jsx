@@ -29,10 +29,10 @@ function Navbar({ desktop }) {
   };
 
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="navbar__nav">
         {navbarProducts.map((item) => (
-          <nav key={item.category} className="navbar__item">
+          <div key={item.category} className="navbar__item">
             <button
               className={
                 productIsOpen
@@ -57,10 +57,10 @@ function Navbar({ desktop }) {
                 ))}
               </ul>
             )}
-          </nav>
+          </div>
         ))}
         {navbarContact.map((item) => (
-          <nav key={item.category} className="navbar__item">
+          <div key={item.category} className="navbar__item">
             <button
               className={
                 companyIsOpen
@@ -85,11 +85,11 @@ function Navbar({ desktop }) {
                 ))}
               </ul>
             )}
-          </nav>
+          </div>
         ))}
 
         {navbarConnect.map((item) => (
-          <nav key={item.category} className="navbar__item">
+          <div key={item.category} className="navbar__item">
             <button
               className={
                 connectIsOpen
@@ -114,7 +114,7 @@ function Navbar({ desktop }) {
                 ))}
               </ul>
             )}
-          </nav>
+          </div>
         ))}
       </div>
       {!desktop && <div className="navbar__divider"></div>}
@@ -122,7 +122,7 @@ function Navbar({ desktop }) {
         <button className="navbar__btn btn btn--borderless">Login</button>
         <button className="navbar__btn btn btn--gradient">Sign Up</button>
       </div>
-    </div>
+    </nav>
   );
 }
 
